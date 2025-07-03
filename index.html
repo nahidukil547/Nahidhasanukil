@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahid Hasan Ukil</title>
+    <!-- Font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style/styleOut.css">
+
+</head>
+<body class="dark bg-[var(--bg-color)]">
+    <nav class="flex justify-center mx-auto lg:w-2/3 z-50">
+        <ul class="fixed bottom-4 left-1/2 -translate-x-1/2 flex gap-3 md:top-1/2 md:left-12 md:bottom-auto md:translate-x-0 md:-translate-y-1/2 md:flex-col z-[999]">
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href=""><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-house-chimney"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">Home </span></a></li>
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href="about.html"><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-user"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">About </span></a></li>
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href="portfolio.html"><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-briefcase"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">Portfolio </span></a></li>
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href="contact.html"><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-paper-plane"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">Contact </span></a></li>
+        </ul>
+        <button id="theme-btn" class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-gray-500 absolute top-5 sm:top-10 right-2 sm:right-10 md:left-12 cursor-pointer hover:bg-amber-500">
+            <span id="light" class="text-white text-sm md:text-xl"><i class="fa-solid fa-sun"></i></span>
+            <span id="dark" class="text-white text-sm md:text-xl hidden"><i class="fa-solid fa-moon"></i></span>
+        </button>
+    </nav>
+
+    <main>
+        <div class="flex flex-col-reverse md:flex-row gap-5 mx-auto mb-25 md:mb-0">
+            <div class="header_details p-5 md:w-[100%] flex flex-col items-center md:items-end md:justify-center">
+                <div class="header_title text-center md:text-left md:w-[80%] lg:w-[70%] md:pl-10">
+                    <h1 class="relative text-amber-400 text-3xl lg:text-5xl font-bold my-2">Nahid Hasan Ukil</h1>
+                    <h2 class=" text-[var(--font-color)]  text-2xl lg:text-3xl font-bold mb-5">Web Developer</h2>
+                </div>
+                <div class="header_details md:w-[80%] lg:w-[70%] text-sm text-[var(--font-color)]  lg:px-5">
+                    <p class="text-justify">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores repudiandae, exercitationem optio facilis iste iure consequatur voluptatum illo voluptatibus. Quo laborum ad animi quibusdam maxime atque quod sunt porro voluptatum saepe! Aspernatur voluptatum repellat eius molestias tempora fugit ratione dolore consectetur? Eius deserunt error unde cum ea. Reprehenderit, possimus temporibus!
+                    </p>
+                </div>
+                <div class="header_btn flex item-center justify-center mt-15 w-[80%] h-auto ">
+                    <button class="about_btn w-[250px] after:rounded-full h-[60px] mt-5 flex items-center justify-between border-2 after:bg-amber-500 border-amber-500 rounded-full cursor-pointer text-[var(--font-color)]  text-lg ease-in-out duration-300 relative overflow-hidden bg-transparent"> 
+                        <span class="btn_text flex-1 z-[1] ">More About Me</span> 
+                        <span class="btn_icon outline-2 bg-amber-500 outline-amber-500 right-0 w-[56px] h-[56px] flex items-center justify-center rounded-full z-[1]"><i class=" fa fa-arrow-right" ></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header_image md:w-[100%] md:h-[100vh] relative">
+                <div class="image md:w-[100%] md:h-[100%]  flex w-[310px] h-[310px] rounded-full  justify-center items-center top-0 bg-amber-500 md:bg-transparent mx-auto my-10 md:my-0 ">
+                    <img src="images/image-1.png" class="w-[300px] h-[300px] object-top shadow-lg shadow-gray-700/40 z-10 rounded-full md:w-auto md:h-[70%] lg:w-[70%] lg:h-[90vh] md:rounded-2xl object-cover" alt="">
+                </div>
+                <div class="img_bg hidden md:block md:w-[100%] inset-0 md:h-[100%] md:absolute top-0 right-0 z-0 clip-diagonal-box bg-amber-500 p-8" style="clip-path: polygon(61% 0, 100% 0, 100% 100%, 45% 100%);">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="Query/bootstrap.bundle.min.js"></script>
+    <script src="Query/main.js"></script>
+</body>
+</html>
+

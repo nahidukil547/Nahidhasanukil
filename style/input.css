@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+:root{
+    --color-black: #000;
+    --color-white: #fff;
+    --color-gray-900: oklch(21% 0.034 264.665);
+}
+.dark{
+    --font-color:#fff;
+    --bg-color:oklch(21% 0.034 264.665);
+    --bg-gray:color-mix(in srgb, #000 60%, transparent);
+    --overlay: #272727;
+    --overlay-text: #8b8b8b;
+}
+
+.light{
+    --font-color:#000;
+    --bg-color:oklch(98.5% 0.002 247.839);
+    --bg-gray:color-mix(in srgb, #000 60%, transparent);
+    --overlay: #7e7e7e;
+    --overlay-text: #8b8b8b;
+}
+
+@media (min-width: 768px) {
+    .header_title h1::before{
+        content: "";
+        width: 40px;
+        height: 5px;
+        border-radius: 25px;
+        background-color: #ffbb00;
+        position: absolute;
+        top: 50%;
+        left: -45px;
+    }
+}
+
+.about_btn::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    z-index: 0;
+    transition: width 0.5s ease-in-out;
+}
+.about_btn:hover::after{
+    width: 250px;
+}
+

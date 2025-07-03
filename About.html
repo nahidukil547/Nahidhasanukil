@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style/styleOut.css">
+</head>
+<body class="dark bg-[var(--bg-color)]">
+
+    <nav class="flex justify-center mx-auto lg:w-2/3 z-50">
+        <ul class="fixed bottom-4 left-1/2 -translate-x-1/2 flex gap-3 md:top-1/2 md:left-12 md:bottom-auto md:translate-x-0 md:-translate-y-1/2 md:flex-col z-[999]">
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href="index.html"><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-house-chimney"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">Home </span></a></li>
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href="about.html"><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-user"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">About </span></a></li>
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href="portfolio.html"><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-briefcase"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">Portfolio </span></a></li>
+            <li class="duration-300 ease-in-out md:rounded-4xl bg-gray-700 flex p-0 md:hover:w-[200px] md:hover:bg-amber-500 md:w-15 md:h-15 overflow-hidden"><a href="contact.html"><i class="flex md:text-lg text-white p-5 duration-300 ease-in-out fa-solid fa-paper-plane"></i> <span class="text-lg uppercase tracking-wider text-white md:inline-block hidden py-2 pl-1 -m-1 ">Contact </span></a></li>
+        </ul>
+        <button id="theme-btn" class="w-10 h-10 md:w-15 md:h-15 rounded-full bg-gray-500 absolute top-5 sm:top-10 right-2 sm:right-10 md:left-12 cursor-pointer hover:bg-amber-500">
+            <span id="light" class="text-white text-sm md:text-xl"><i class="fa-solid fa-sun"></i></span>
+            <span id="dark" class="text-white text-sm md:text-xl hidden"><i class="fa-solid fa-moon"></i></span>
+        </button>
+    </nav>
+
+    <main class="lg:w-6xl md:w-3xl mx-auto">
+        <div class="mt-[30px] p-5">
+            <h1 class="text-center font-bold text-[var(--font-color)]  uppercase text-3xl md:text-5xl">
+                About <span class="text-[#fdb12d]">Me</span>
+            </h1>
+        </div>
+
+        <div class="max-w-5xl lg:w-6xl md:w-3xl mx-auto px-4">
+            <div class="flex flex-col lg:flex-row">
+            
+                <!-- Personal Info -->
+                <div class="lg:w-1/2 w-full mt-10">
+                    <h2 class="font-bold text-3xl text-[var(--font-color)] ">Personal Infos</h2>
+            
+                    <div class="flex flex-col md:flex-row my-10 gap-8">
+                    
+                        <!-- Left Info Column -->
+                        <div class="flex-1 space-y-5">
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">First Name :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">Nahid</span>
+                            </div>
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">Age :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">22</span>
+                            </div>
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">Freelance :</span>
+                                <span class="pl-2 text-green-500">Available</span>
+                            </div>
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">Phone :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">0164*******</span>
+                            </div>
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">GitHub :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">nahid547</span>
+                            </div>
+                        </div>
+
+                        <!-- Right Info Column -->
+                        <div class="flex-1 space-y-5">
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">Last Name :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">Hasan Ukil</span>
+                            </div>
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">Nationality :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">Bangladesh</span>
+                            </div>
+                            <div class="text-[18px] my-2">
+                                <span class="text-gray-400 font-semibold">Address :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">Dhaka, Bangladesh</span>
+                            </div>
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">Email :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">nahidukil547@gmail.com</span>
+                            </div>
+                            <div class="text-[18px]  my-2">
+                                <span class="text-gray-400 font-semibold">Languages :</span>
+                                <span class="pl-2 text-[var(--font-color)] ">Bangla, English</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Download CV Button -->
+                    <div class="header_btn flex item-center justify-center mt-15 w-[80%] h-auto ">
+                        <a href="">
+                            <button class="about_btn w-[250px] after:rounded-full h-[60px] mt-5 flex items-center justify-between border-2 after:bg-amber-500 border-amber-500 rounded-full cursor-pointer text-[var(--font-color)]  text-lg ease-in-out duration-300 relative overflow-hidden bg-transparent"> 
+                                <span class="btn_text flex-1 z-[1] ">Download My CV</span> 
+                                <span class="btn_icon outline-2 bg-amber-500 outline-amber-500 right-0 w-[56px] h-[56px] flex items-center justify-center rounded-full z-[1]"><i class=" fa fa-arrow-right" ></i></span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="lg:w-1/2 w-full mt-10 lg:mt-0">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-5">
+                        <!-- Card 1 -->
+                        <div class="border border-amber-500 p-5 bg-transparent ">
+                            <h1 class="text-[50px] font-black text-amber-500 mb-2">5<sup class="font-normal">+</sup></h1>
+                            <h6 class="uppercase text-[var(--font-color)]  pl-10 text-[20px] font-light relative before:content-[''] before:absolute before:left-0 before:top-1/3 before:w-[30px] before:h-[1px] before:bg-[color:var(--title-color)] before:rounded-full">
+                                years of experience
+                            </h6>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="border border-amber-500 p-5 bg-transparent ">
+                            <h1 class="text-[50px] font-black text-amber-500 mb-2">12<sup class="font-normal">+</sup></h1>
+                            <h6 class="uppercase text-[var(--font-color)]  pl-10 text-[20px] font-light relative before:content-[''] before:absolute before:left-0 before:top-1/3 before:w-[30px] before:h-[1px] before:bg-[color:var(--title-color)] before:rounded-full">
+                                completed projects
+                            </h6>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="border border-amber-500 p-5 bg-transparent ">
+                            <h1 class="text-[50px] font-black text-amber-500 mb-2">9<sup class="font-normal">+</sup></h1>
+                            <h6 class="uppercase text-[var(--font-color)]  pl-10 text-[20px] font-light relative before:content-[''] before:absolute before:left-0 before:top-1/3 before:w-[30px] before:h-[1px] before:bg-[color:var(--title-color)] before:rounded-full">
+                                happy customers
+                            </h6>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="border border-amber-500 p-5 bg-transparent ">
+                            <h1 class="text-[50px] font-black text-amber-500 mb-2">30<sup class="font-normal">+</sup></h1>
+                            <h6 class="uppercase text-[var(--font-color)]  pl-10 text-[20px] font-light relative before:content-[''] before:absolute before:left-0 before:top-1/3 before:w-[30px] before:h-[1px] before:bg-[color:var(--title-color)] before:rounded-full">
+                                awards won
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Skill -->
+    <section class="mt-50 lg:w-6xl md:w-3xl mx-auto">
+        <div class="p-5">
+            <h1 class="text-center font-bold text-[var(--font-color)]  uppercase text-3xl md:text-5xl">
+                About <span class="text-[#fdb12d]">My</span> Skills
+            </h1>
+        </div>
+
+        <!-- Skill Section -->
+        <div class="mx-auto max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6 my-20 p-10">
+
+                <!-- Python -->
+            <div class="group bg-gray-600 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center">
+                <div class="h-16 w-16 bg-purple-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-purple-200 transition-colors duration-300">
+                    <i class="fab fa-python text-3xl text-purple-600"></i>
+                </div>
+                <h3 class="font-medium text-center text-white">Python</h3>
+                <div class="mt-3 h-1 w-16 bg-purple-200 rounded-full overflow-hidden">
+                    <div class="h-full w-3/6 bg-purple-600 rounded-full"></div>
+                </div>
+            </div>
+
+                <!-- Django -->
+            <div class="group bg-gray-600 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center">
+                <div class="h-16 w-16 bg-green-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-green-200 transition-colors duration-300">
+                        <img src="images/django.webp" alt="Django" class="w-6 h-6">
+                </div>
+                <h3 class="font-medium text-center text-white ">Django</h3>
+                <div class="mt-3 h-1 w-16 bg-green-200 rounded-full overflow-hidden">
+                    <div class="h-full w-2/5 bg-green-600 rounded-full"></div>
+                </div>
+            </div>
+            
+                <!-- JavaScript -->
+            <div class="group bg-gray-600 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center">
+                <div class="h-16 w-16 bg-yellow-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-yellow-200 transition-colors duration-300">
+                    <i class="fab fa-js text-3xl text-yellow-600"></i>
+                </div>
+                <h3 class="font-medium text-center text-white">JavaScript</h3>
+                <div class="mt-3 h-1 w-16 bg-yellow-200 rounded-full overflow-hidden">
+                    <div class="h-full w-2/6 bg-yellow-600 rounded-full"></div>
+                </div>
+            </div>
+
+                <!-- React js-->
+            <div class="group bg-gray-600 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center">
+                <div class="h-16 w-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors duration-300">
+                    <i class="fab fa-react text-3xl text-blue-600"></i>
+                </div>
+                <h3 class="font-medium text-center text-white">React.js</h3>
+                <div class="mt-3 h-1 w-16 bg-blue-200 rounded-full overflow-hidden">
+                    <div class="h-full w-3/6 bg-blue-600 rounded-full"></div>
+                </div>
+            </div>
+                
+                <!-- CSS -->
+            <div class="group bg-gray-600 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center">
+                <div class="h-16 w-16 bg-pink-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-pink-200 transition-colors duration-300">
+                    <i class="fab fa-sass text-3xl text-pink-600"></i>
+                </div>
+                <h3 class="font-medium text-center text-white ">Sass/CSS</h3>
+                <div class="mt-3 h-1 w-16 bg-pink-200 rounded-full overflow-hidden">
+                    <div class="h-full w-5/6 bg-pink-600 rounded-full"></div>
+                </div>
+            </div>
+                
+                <!-- HTML-->
+            <div class="group bg-gray-600 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center">
+                <div class="h-16 w-16 bg-orange-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-orange-200 transition-colors duration-300">
+                    <i class="fab fa-html5 text-3xl text-orange-600"></i>
+                </div>
+                <h3 class="font-medium text-center text-white">HTML5</h3>
+                <div class="mt-3 h-1 w-16 bg-orange-200 rounded-full overflow-hidden">
+                    <div class="h-full w-full bg-orange-600 rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-30 lg:w-6xl md:w-3xl mx-auto">
+        <div class="p-5 mb-15">
+            <h1 class="text-center font-bold text-[var(--font-color)]  uppercase text-3xl md:text-5xl">
+                <span class="text-[#fdb12d]">Experience </span> & Education
+            </h1>
+        </div>
+
+        <div class="mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-10">
+            <!-- Experience Card 1 -->
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2023/12 - Current</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">Digital Marketing Analyst</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- Izaan School Of Engineering</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experience Card 2 -->
+
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2023/10 - 2023/12</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">Digital Marketing Executive</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- MaxFly Tourist and Travels Agency</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-10">
+            <!-- Experience Card 3 -->
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2023/2 - 2023/8</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">General Teacher</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- Talimul Quran Nurania Hafizia Madrasha</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+             <!-- Experience Card 4-->
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2022/2 - 2023/1</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">Digital Marketing Manager</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- DOT Digital</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-10">
+            <!-- Experience Card 2 -->
+
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2019/9 - 2022/2</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">Hardware Engineer</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- My Computer Services</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-30 lg:w-6xl md:w-3xl mx-auto">
+        <div class="mx-auto  max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-10">
+            <!-- Experience Card 3 -->
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2024 - Current</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">B.Sc. in Computer Science and Engineering (CSE)</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- Canadian University of Bangladesh</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+             <!-- Experience Card 4-->
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2019 - 2023</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">Diploma in Computer Science and Technology (CST)</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- Bangladesh Skill Development Institute (BSDI)</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-10">
+            <!-- Experience Card 3 -->
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2024 - Current</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">Higher School Certificate (HSC)</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- Bangladesh Open University</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+             <!-- Experience Card 4-->
+            <div class="relative shadow-md border-l-2 border-gray-400 p-6 mt-12 rounded-lg">
+                <!-- Year badge -->
+                <div class="absolute top-0 left-15 transform -translate-y-1/2 bg-gray-400 text-[var(--font-color)]  text-sm px-4 py-1 rounded opacity-80">
+                    <h6>2017 - 2018</h6>
+                </div>
+                <!-- Icon -->
+                <div class="absolute -top-6 -left-6 w-12 h-12 bg-amber-500 text-white flex items-center justify-center rounded-full text-xl">
+                    <i class="fa fa-briefcase"></i>
+                </div>
+                <!-- Content -->
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold mb-2 text-[var(--font-color)] ">Secondary School Certificate (SSC)</h2>
+                    <h3 class="text-[var(--overlay-text)] font-medium mb-2">- Balia Adarsha High School</h3>
+                    <p class="text-sm text-[var(--font-color)] ">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="Query/bootstrap.bundle.min.js"></script>
+    <script src="Query/main.js"></script>
+</body>
+</html>
+
